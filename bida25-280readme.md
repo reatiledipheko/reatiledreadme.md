@@ -1,4 +1,4 @@
-#THE  GRADEBOOK  MANAGEMENT  SYSTEM  ASSIGNMENT
+THE  GRADEBOOK  MANAGEMENT  SYSTEM  ASSIGNMENT
 
 Section  A:  Initial  Setup  -  Scalar  Objects  and  Loops  
 This is the initial setup of the system which handles the basic input and output operations. It works with Scalar objects such as integers, for loops like "while".
