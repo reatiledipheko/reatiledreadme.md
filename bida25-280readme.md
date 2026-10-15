@@ -1,57 +1,14 @@
-THE  GRADEBOOK  MANAGEMENT  SYSTEM  ASSIGNMENT
+THE GRADEBOOK  MANAGEMENT SYSTEM  ASSIGNMENT
 
-Section  A:  Initial  Setup  -  Scalar  Objects  and  Loops  
-This is the initial setup of the system which handles the basic input and output operations. It works with Scalar objects such as integers, for loops like "while".
-The scetions collects student names and grades, calculates the class averages as will as printing a students report.
-
-The code satisfies:
--Asking the user how many students there are
--Collects data: a for loop that runs once per students, asking for their name with a while loop that asks for their grade and checks that the grade is between 0 and 100.
--It calculates through all students and adds uo the grades (student[1]) into the total. Calculates the average=total/num_students.
-
-The Concepts Used
--Lists and nested lists
--For and while loops
--Input validation with if/else
--Input() and type conversion
-
-Section  B:  Expanding  with  Lists  and  Tuples  
-This part of the system collects grades for multiple students across the three subjects we have, then reports each students average alongside the highest and lowest per subject and a summary table.
-
-It satisfies:
--A list of subjects
--Asking the user how many students there are (students_num)
--Collects data: a for loop that runs once per student and prints the student number, nested loop that goes through each subjects and asks for a grade and a while loop that keeps asking until the grade 
-is between 0 and 100.
--Loops through students and calculates sum(grades) / len(grades).
--Loops through each subject by its index i 
--Contains a summary table
-
-The Concepts Used
--Lists, tuples and nested data
--for loops, nested and while loops
--Input validation
--List comprehensions
--sum(),len(),max(),min(), and round()
--string formating with ljust() and rjust(). This are pad strings with spaces so it reaches a set width.
-
-Section  C:  Introduction  of  Dictionaries  
-Stores student grades in nested dictionaries. Users can add, update and remove students,view grades by subject,search for a students aand see a summary table.
-
-It satisfies:
--a while loop which keeps showing the menu until the user chooses Exit and each menu option calls its own function.
--asks for grade and keeps asking until the input is 0 and 100
--shows the avaliable subjects and asks the user to pick one.
--collects every grade across all subjects for one students and returns the average.
-
-Concepts used
--Nested Dictionaries and lists
--Functions with return values
--While loops and menu-driven programs
--Try/except error handling
--Input validation
-
-Section D: 
-
-
-
+Section A:  Initial Setup  - Scalar  Objects and  Loops  
+This is the student grade report that asks how many students there are, collects each student's name and grade, then 
+calculates the class average and prints a student report. Each student is stored as a small list with two items: [name, grade].
+All the students go inside one bigger list called students. The code works in a way that it creates  an empty list called students 
+and asks how many students there are.Collects data on a for loop thats runs once for each student. For each one it:
+-Prints the student number
+-Asks for the name
+-Asks for the grade
+It checks the grade with a while True loop that keeps asking until the grade is between 0 and 100.If the grade is valid, break stops the loop.
+If it is not valid, an error message shows and the program asks again plus the student as students.append([name, grade]) adds the student to the list.
+The system calculates the average with another loop adds up every grade into total. Then average = total / student_num. If there are no students,the average
+is set to 0 so the program doesn't divide by zero.It prints ===STUDENT REPORT===, then loops through the list and prints each student's name and grade.
