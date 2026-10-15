@@ -5,20 +5,22 @@ This is the student grade report that asks how many students there are, collects
 calculates the class average and prints a student report. Each student is stored as a small list with two items: [name, grade].
 All the students go inside one bigger list called students. The code works in a way that it creates  an empty list called students 
 and asks how many students there are.Collects data on a for loop thats runs once for each student. For each one it:
+
 -Prints the student number
 -Asks for the name
 -Asks for the grade
+
 It checks the grade with a while True loop that keeps asking until the grade is between 0 and 100.If the grade is valid, break stops the loop.
 If it is not valid, an error message shows and the program asks again plus the student as students.append([name, grade]) adds the student to the list.
 The system calculates the average with another loop adds up every grade into total. Then average = total / student_num. If there are no students,the average
 is set to 0 so the program doesn't divide by zero.It prints ===STUDENT REPORT===, then loops through the list and prints each student's name and grade.
 
 What I Used In Section
-Lists and lists inside lists
-for loops and while loops
-if / else
-input(), int() and float()
-append() and break
+-Lists and lists inside lists
+-for loops and while loops
+-if / else
+-input(), int() and float()
+-append() and break
 
 Section B: Student Grade Analysis
 This program collects grades for several students in three subjects (Math, English and Science). It then shows each student's average, the highest and
@@ -30,15 +32,15 @@ then uses max() and min() to find the highest and lowest and a summary table tha
 The program collects every student's grade for that subject into a list, then uses max() and min() to find the highest and lowest. 
 
 What ljust() and rjust() do:
-ljust(12) puts the text on the left and adds spaces after it, until it is 12 characters wide.
-rjust(10) puts the text on the right and adds spaces before it, until it is 10 characters wide
+-ljust(12) puts the text on the left and adds spaces after it, until it is 12 characters wide.
+-rjust(10) puts the text on the right and adds spaces before it, until it is 10 characters wide
 
 What I used:
-Lists and tuples
-for loops (including a loop inside a loop) and while loops
-List comprehension: [grades[i] for name, grades in students]
-sum(), len(), max(), min() and round()
-ljust() and rjust()
+-Lists and tuples
+-for loops (including a loop inside a loop) and while loops
+-List comprehension: [grades[i] for name, grades in students]
+-sum(), len(), max(), min() and round()
+-ljust() and rjust()
 
 Section C: Student Grade Manager (Dictionaries)
 
