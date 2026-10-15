@@ -58,15 +58,13 @@ What it does
 6. Exit	Prints "Goodbye!" and uses break to stop the loop.
 
 How the average is worked out the program goes through every grade for the student. It adds each one to total and adds 1 to count. Then average = total / count.
-and it checks the program that the grade must be between 0 and 100, otherwise it asks again.If a student or subject is not found, it shows a message instead of crashing.
-.title() makes names and subjects match even if typed in small letters, so thato becomes Thato.
 
 What I used
-Dictionaries, including a dictionary inside a dictionary
-Lists and .append()
-while loops and for loops
-if / elif / else
-del to remove from a dictionary
+-Dictionaries, including a dictionary inside a dictionary
+-Lists and .append()
+-while loops and for loops
+-if / elif / else
+-del to remove from a dictionary
 
 Section D: Student Grade Manager (Functions)
 This is the section C program, but the code is now split into functions. The user picks an option from a menu to add, search, update, display or remove students.
