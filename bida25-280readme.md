@@ -1,6 +1,7 @@
 THE GRADEBOOK  MANAGEMENT SYSTEM  ASSIGNMENT
 
-Section A:  Initial Setup  - Scalar  Objects and  Loops  
+Section A: 
+Initial Setup  - Scalar  Objects and  Loops  
 This is the student grade report that asks how many students there are, collects each student's name and grade, then 
 calculates the class average and prints a student report. Each student is stored as a small list with two items: [name, grade].
 All the students go inside one bigger list called students. The code works in a way that it creates  an empty list called students 
@@ -22,7 +23,8 @@ What I Used In Section
 -input(), int() and float()
 -append() and break
 
-Section B: Student Grade Analysis
+Section B:
+Student Grade Analysis
 This program collects grades for several students in three subjects (Math, English and Science). It then shows each student's average, the highest and
 lowest grade in each subject, and a summary table. The code works in way that it makes the subjects list, an empty students list, and asks how many students 
 there are. It collects data in a for loop for each student, it asks for the name, a second for loop goes through each subject and asks for grade, a while
@@ -42,7 +44,8 @@ What I used:
 -sum(), len(), max(), min() and round()
 -ljust() and rjust()
 
-Section C: Student Grade Manager (Dictionaries)
+Section C: 
+Student Grade Manager (Dictionaries)
 
 This program manages student grades using dictionaries. The user picks an option from a menu to add, update, remove or search for students, or to view all the grades for one subject.
 A dictionary stores data in key: value pairs, like a real dictionary where a word (the key) has a meaning (the value).In this program: The key is the student's name and the value is 
@@ -66,7 +69,8 @@ What I used
 -if / elif / else
 -del to remove from a dictionary
 
-Section D: Student Grade Manager (Functions)
+Section D: 
+Student Grade Manager (Functions)
 This is the section C program, but the code is now split into functions. The user picks an option from a menu to add, search, update, display or remove students.
 The program also checks for errors, so it doesn't crash when something goes wrong. A function is a named block of code that does one job. You write it once with def,
 then use it ("call" it) whenever you need it by writing its name with brackets, like add student(). Functions make the code easier to read, easier to fix, and let you 
@@ -97,5 +101,58 @@ Dictionaries and lists
 try / except
 while loops, for loops and if / elif / else
 
+Section E and F
+
+The Gradebook Management System is a Python-based application developed using Object-Oriented Programming (OOP) principles. The system allows users to manage student records, store grades, calculate averages, search for students, remove students, and sort student data.
+
+This project demonstrates the use of classes, objects, methods, encapsulation, exception handling, and input validation.
+
+Objectives
+
+The main objectives of this project are:
+
+Implement Object-Oriented Programming concepts.
+Create and manage student records.
+Store and maintain student grades.
+Calculate average grades automatically.
+Search and remove student records.
+Sort students by average grade or subject grade.
+Handle user input errors effectively.
+
+Features
+Student Management
+Add new students.
+Prevent duplicate student records.
+Search for existing students.
+Remove students from the system.
+
+Grade Management
+Add grades for different subjects.
+Store multiple subject grades for each student.
+Calculate average grades automatically.
+
+Sorting Functions
+Sort students by overall average grade.
+Sort students by specific subject grades.
+
+Input Validation
+Prevent empty student names.
+Prevent empty subject names.
+Validate grade values between 0 and 100.
+Handle invalid inputs using exception handling.
+
+Object-Oriented Design
+Student Class
+
+The Student class represents an individual student.
+
+Attributes
+name
+grades
+
+Methods
+Method	Descriptionadd_grade()	-Adds a subject and grade
+calculate_average()             -	Calculates the average grade
+print_details()	                -Displays student information
 
 
