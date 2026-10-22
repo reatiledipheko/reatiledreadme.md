@@ -1,3 +1,10 @@
+Author: Reatile Dipheko
+Course:Introduction to Python Programming
+
+Requirements
+Python 3.x
+Command Line Interface (CLI)
+
 THE GRADEBOOK  MANAGEMENT SYSTEM  ASSIGNMENT
 
 Section A: 
@@ -151,8 +158,72 @@ name
 grades
 
 Methods
-Method	Descriptionadd_grade()	-Adds a subject and grade
-calculate_average()             -	Calculates the average grade
-print_details()	                -Displays student information
+Method	Descriptionadd_grade()	
+calculate_average()            
+print_details()
 
+Gradebook Class
 
+The Gradebook class manages a collection of Student objects.
+
+Attributes
+students
+
+Methods
+Method	
+add_student()	
+remove_student()	
+search_student()	
+display_students()	
+sort_by_average()	
+sort_by_subject()	
+
+Menu Options
+
+When the program runs, the following menu is displayed:
+
+Plain Text
+1. Add Student
+2. Add Grade
+3. Search Student
+4. Remove Student
+5. Display All Students
+6. Sort By Average
+7. Sort By Subject
+8. Exit
+
+Exception Handling
+
+The system includes error handling using try-except blocks.
+
+The program is divided into separate classes with specific responsibilities.
+
+Testing
+
+The program was tested using the following scenarios:
+
+Valid Tests
+
+Add student
+Add grades
+Search student
+Remove student
+Display student records
+Sort by average grade
+Sort by subject grade
+
+Error Tests
+
+Empty student name
+Empty subject name
+Grade less than 0
+Grade greater than 100
+Non-numeric grade input
+Duplicate student entry
+Searching for a non-existing student
+Removing a non-existing student
+Invalid menu options
+
+Conclusion
+
+The Gradebook Management System successfully demonstrates the application of Object-Oriented Programming principles in Python. It provides functionality for managing student records, calculating grades, sorting information, and validating user input while handling errors efficiently. The modular design makes the system easy to maintain, extend, and test.
