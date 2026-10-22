@@ -1,9 +1,9 @@
-Author: Reatile Dipheko
-Course:Introduction to Python Programming
+* Author: Reatile Dipheko
+* Course:Introduction to Python Programming
 
 Requirements
-Python 3.x
-Command Line Interface (CLI)
+* Python 3.14
+* Command Line Interface (CLI)
 
 THE GRADEBOOK  MANAGEMENT SYSTEM  ASSIGNMENT
 
@@ -14,9 +14,9 @@ calculates the class average and prints a student report. Each student is stored
 All the students go inside one bigger list called students. The code works in a way that it creates  an empty list called students 
 and asks how many students there are.Collects data on a for loop thats runs once for each student. For each one it:
 
--Prints the student number
--Asks for the name
--Asks for the grade
+* Prints the student number
+* Asks for the name
+* Asks for the grade
 
 It checks the grade with a while True loop that keeps asking until the grade is between 0 and 100.If the grade is valid, break stops the loop.
 If it is not valid, an error message shows and the program asks again plus the student as students.append([name, grade]) adds the student to the list.
@@ -24,11 +24,11 @@ The system calculates the average with another loop adds up every grade into tot
 is set to 0 so the program doesn't divide by zero.It prints ===STUDENT REPORT===, then loops through the list and prints each student's name and grade.
 
 What I Used In Section
--Lists and lists inside lists
--for loops and while loops
--if / else
--input(), int() and float()
--append() and break
+* Lists and lists inside lists
+* for loops and while loops
+* if / else
+* input(), int() and float()
+* append() and break
 
 Section B:
 Student Grade Analysis
@@ -41,15 +41,15 @@ then uses max() and min() to find the highest and lowest and a summary table tha
 The program collects every student's grade for that subject into a list, then uses max() and min() to find the highest and lowest. 
 
 What ljust() and rjust() do:
--ljust(12) puts the text on the left and adds spaces after it, until it is 12 characters wide.
--rjust(10) puts the text on the right and adds spaces before it, until it is 10 characters wide
+* ljust(12) puts the text on the left and adds spaces after it, until it is 12 characters wide.
+* rjust(10) puts the text on the right and adds spaces before it, until it is 10 characters wide
 
 What I used:
--Lists and tuples
--for loops (including a loop inside a loop) and while loops
--List comprehension: [grades[i] for name, grades in students]
--sum(), len(), max(), min() and round()
--ljust() and rjust()
+* Lists and tuples
+* for loops (including a loop inside a loop) and while loops
+* List comprehension: [grades[i] for name, grades in students]
+* sum(), len(), max(), min() and round()
+* ljust() and rjust()
 
 Section C: 
 Student Grade Manager (Dictionaries)
@@ -70,11 +70,11 @@ What it does
 How the average is worked out the program goes through every grade for the student. It adds each one to total and adds 1 to count. Then average = total / count.
 
 What I used
--Dictionaries, including a dictionary inside a dictionary
--Lists and .append()
--while loops and for loops
--if / elif / else
--del to remove from a dictionary
+* Dictionaries, including a dictionary inside a dictionary
+* Lists and .append()
+* while loops and for loops
+* if / elif / else
+* del to remove from a dictionary
 
 Section D: 
 Student Grade Manager (Functions)
@@ -85,15 +85,15 @@ reuse the same code in many places.
 
 The Functions
 
-get_grade(subject):Asks for one grade and repeats until it is a number from 0 to 100. Gives the grade back with return.
-calculate_average(record):Adds up all of one student's grades and divides by how many there are.
-add_student():Asks for a name, checks it is not empty or already used, then collects a grade for each subject.
-display_student(name):Prints one student's grades and average.
-display_summary():Prints every student's grades and average.
-search_and_update():Finds a student by name, shows them, then lets the user add a grade or replace the grades in a subject.
-remove_student():Deletes a student.
-view_subject():Prints every student's grades for one subject.
-main():Shows the menu and calls the other functions.
+* get_grade(subject):Asks for one grade and repeats until it is a number from 0 to 100. Gives the grade back with return.
+* calculate_average(record):Adds up all of one student's grades and divides by how many there are.
+* add_student():Asks for a name, checks it is not empty or already used, then collects a grade for each subject.
+* display_student(name):Prints one student's grades and average.
+* display_summary():Prints every student's grades and average.
+* search_and_update():Finds a student by name, shows them, then lets the user add a grade or replace the grades in a subject.
+* remove_student():Deletes a student.
+* view_subject():Prints every student's grades for one subject.
+* main():Shows the menu and calls the other functions.
 
 Error handling with try/except
 Python runs the code under try. If an error happens, it jumps to except instead of crashing.
@@ -103,10 +103,10 @@ KeyError:	The student's name is not in the dictionary and	shows "student not fou
 ZeroDivisionError:	A student has no grades to average and shows an error and returns 0
 
 What I used
-Functions with def, parameters and return
-Dictionaries and lists
-try / except
-while loops, for loops and if / elif / else
+* Functions with def, parameters and return
+* Dictionaries and lists
+* try / except
+* while loops, for loops and if / elif / else
 
 Section E and F
 
@@ -118,35 +118,35 @@ Objectives
 
 The main objectives of this project are:
 
-Implement Object-Oriented Programming concepts.
-Create and manage student records.
-Store and maintain student grades.
-Calculate average grades automatically.
-Search and remove student records.
-Sort students by average grade or subject grade.
-Handle user input errors effectively.
+* Implement Object-Oriented Programming concepts.
+* Create and manage student records.
+* Store and maintain student grades.
+* Calculate average grades automatically.
+* Search and remove student records.
+* Sort students by average grade or subject grade.
+* Handle user input errors effectively.
 
 Features
-Student Management
-Add new students.
-Prevent duplicate student records.
-Search for existing students.
-Remove students from the system.
+* Student Management
+* Add new students.
+* Prevent duplicate student records.
+* Search for existing students.
+* Remove students from the system.
 
 Grade Management
-Add grades for different subjects.
-Store multiple subject grades for each student.
-Calculate average grades automatically.
+* Add grades for different subjects.
+* Store multiple subject grades for each student.
+* Calculate average grades automatically.
 
 Sorting Functions
-Sort students by overall average grade.
-Sort students by specific subject grades.
+* Sort students by overall average grade.
+* Sort students by specific subject grades.
 
 Input Validation
-Prevent empty student names.
-Prevent empty subject names.
-Validate grade values between 0 and 100.
-Handle invalid inputs using exception handling.
+* Prevent empty student names.
+* Prevent empty subject names.
+* Validate grade values between 0 and 100.
+* Handle invalid inputs using exception handling.
 
 Object-Oriented Design
 Student Class
@@ -154,13 +154,13 @@ Student Class
 The Student class represents an individual student.
 
 Attributes
-name
-grades
+* name
+* grades
 
 Methods
-Method	Descriptionadd_grade()	
-calculate_average()            
-print_details()
+* add_grade()	
+* calculate_average()            
+* print_details()
 
 Gradebook Class
 
@@ -171,12 +171,12 @@ students
 
 Methods
 Method	
-add_student()	
-remove_student()	
-search_student()	
-display_students()	
-sort_by_average()	
-sort_by_subject()	
+* add_student()	
+* remove_student()	
+* search_student()	
+* display_students()	
+* sort_by_average()	
+* sort_by_subject()	
 
 Menu Options
 
@@ -204,25 +204,25 @@ The program was tested using the following scenarios:
 
 Valid Tests
 
-Add student
-Add grades
-Search student
-Remove student
-Display student records
-Sort by average grade
-Sort by subject grade
+* Add student
+* Add grades
+* Search student
+* Remove student
+* Display student records
+* Sort by average grade
+* Sort by subject grade
 
 Error Tests
 
-Empty student name
-Empty subject name
-Grade less than 0
-Grade greater than 100
-Non-numeric grade input
-Duplicate student entry
-Searching for a non-existing student
-Removing a non-existing student
-Invalid menu options
+* Empty student name
+* Empty subject name
+* Grade less than 0
+* Grade greater than 100
+* Non-numeric grade input
+* Duplicate student entry
+* Searching for a non-existing student
+* Removing a non-existing student
+* Invalid menu options
 
 Conclusion
 
